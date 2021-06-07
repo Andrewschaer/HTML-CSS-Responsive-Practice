@@ -83,6 +83,9 @@ button{
     font-size: 1.8rem;
     font-family: 'Source Sans Pro', sans-serif;
 }
+section{
+    padding: 4% 0;
+}
 
 /* HEADER STYLES */
 nav{
@@ -133,4 +136,54 @@ nav{
     background-color:#266035;
     color:#FBFFFB; 
     ;
+}
+/* ABOUT SECTION STYLES */
+#about{
+    height:80vh;
+    background-image: url(../images/about-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#about .text{
+    width: 25%;
+    margin-right: 10%;
+}
+/* SHOP SECTION STYLES */
+.container{
+    display:flex;
+    flex-wrap: wrap;
+}
+.shoptext, .bgimg{
+    width:50%
+}
+.shoptext{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6% 4%;
+    text-align: center;
+}
+.shoptext div{
+    width: 65%;
+}
+.shoptext div button{
+    margin-top: 5%;
+}
+.bgimg{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.succulents{
+    background-image: url(../images/succulants.jpg);
+}
+.cacti{
+    background-image: url(../images/cacti.jpg);
+}
+.tropicals{
+    background-image: url(../images/tropicals.jpg);
 }
