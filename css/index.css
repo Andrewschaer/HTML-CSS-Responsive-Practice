@@ -187,3 +187,63 @@ nav{
 .tropicals{
     background-image: url(../images/tropicals.jpg);
 }
+/* FOOTER SECTION STYLES */
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    color: #FBFFFB;
+    background-color:#266035;
+}
+footer a, footer h3{
+    color: #FBFFFB;
+    text-align: left;
+}
+footer h2{
+    width: 100%;
+}
+.left, .right{
+    width:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left div{
+    width: 60%color: #FBFFFB;
+    color: #FBFFFB;
+}
+.bottom{
+    width: 100%;
+    text-align: right;
+    margin-right: 10%;
+}
+/* RESPONSIVE STYLES */
+@media(max-width: 800px) {
+    
+}
+
+@media(max-width: 500px){
+    nav{
+        flex-direction: column;
+
+    }
+    .links{
+        width: 80%;
+    }
+    #about{
+        background-image: none;
+        background-color: #e0e1e3;
+        justify-content: center;
+    }
+    #about .text{
+        margin: 0;
+        width: 80%;
+        height: auto;
+    }
+    .bgimg{
+        height: 60vh;
+    }
+    .shoptext, .bgimg{
+        width:90%;
+
+    }
+}
