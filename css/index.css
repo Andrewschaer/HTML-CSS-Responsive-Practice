@@ -77,5 +77,60 @@ h3{
     font-size: 2rem;
 }
 button{
+    color:#FBFFFB;
+    background-color:#266035;
+    padding: 3% 4%;
+    font-size: 1.8rem;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* HEADER STYLES */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: rgba(255,255,255,0.8);
+        /* ^this 0.8 makes it opaque */
+}
+.logo{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 70%
+}
+.links{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+/* TOP SECTION STYLES */
+#top{
+    height: 90vh;
+    background-image: url(../images/header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#top button{
+    background-color:#FBFFFB;
     color:#266035;
+    margin-top: 5%;
+    transition: 2s;
+    border: 2px solid #266035;
+}
+#top button:hover{
+    background-color:#266035;
+    color:#FBFFFB; 
+    ;
 }
